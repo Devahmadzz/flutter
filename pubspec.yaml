@@ -4,14 +4,14 @@ publish_to: 'none'
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.0.0 <4.0.0'
+  sdk: ">=2.17.0 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
   
   # UI & Material Design
-  cupertino_icons: ^1.0.6
+  cupertino_icons: ^1.0.2
   
   # Camera & Image Processing
   camera: ^0.11.0+1
