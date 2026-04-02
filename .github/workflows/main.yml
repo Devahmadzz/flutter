@@ -15,7 +15,7 @@ jobs:
       # Step 2: Install compatible Flutter version
       - uses: subosito/flutter-action@v2
         with:
-          flutter-version: '2.10.5'
+          flutter-version: '3.7.12'
 
       # Step 3: Get dependencies (pub get)
       - run: flutter pub get
